@@ -2,7 +2,7 @@
 // Brute Force solution:
 
 public class MissingNumber {
-    public static int missingNumber(int[] arr, int N) {
+    public static void missingNumber(int[] arr, int N) {
 
         for (int i = 1; i < N; i++) {
             boolean found = false;
@@ -15,15 +15,14 @@ public class MissingNumber {
 
             }
             if (!found) {
-                return i;
+                System.out.print(i + " ");
             }
         }
-        return -1;
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 6};
-        System.out.println(missingNumber(arr, 6));
+        int[] arr = {1, 2, 4, 6};
+        missingNumber(arr, 6);
     }
 }
 
