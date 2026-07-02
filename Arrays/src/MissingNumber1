@@ -1,7 +1,7 @@
 
 // Brute Force solution:
 
-public class MissingNumber {
+public class MissingNumber1 {
     public static void missingNumber(int[] arr, int N) {
 
         for (int i = 1; i < N; i++) {
