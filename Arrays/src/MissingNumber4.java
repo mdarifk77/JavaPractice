@@ -1,6 +1,6 @@
 // Optimal Approach xor method:
 
-public class MissingNumber3 {
+public class MissingNumber4 {
     public static int missingNumber(int [] arr , int N){
 
         int xor1 = 0;
