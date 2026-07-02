@@ -1,6 +1,6 @@
 // Optimal Approach sum method:
 
-public class MissingNumber2 {
+public class MissingNumber3 {
     public static int missingNumber(int [] arr, int N){
 
         int expectedSum = N * (N+1) / 2;
