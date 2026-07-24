@@ -13,7 +13,7 @@ public class RotateByN {
     }
     public static void leftRotate(int [] arr, int n){
         int len = arr.length;
-        n = n%len;
+        n = n % len;
         reverse(arr , 0 , n-1);
         reverse(arr , n , len-1);
         reverse(arr , 0 , len-1);
