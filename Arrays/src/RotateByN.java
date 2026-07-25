@@ -21,7 +21,7 @@ public class RotateByN {
 
     public static void main(String[] args) {
         int [] arr = {1,2,3,4,5,6,7};
-        int n=4;
+        int n = 2;
         leftRotate(arr,n);
         for(int sum : arr){
             System.out.print(sum+ " " );
