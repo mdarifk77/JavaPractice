@@ -1,3 +1,5 @@
+// LeetCode 1752 – Check if Array Is Sorted and Rotated:
+
 public class CheckRotationSorted {
     public static boolean checkSorted(int [] nums){
         int n = nums.length;
@@ -27,6 +29,5 @@ public class CheckRotationSorted {
         int [] nums = {3, 4, 5, 1, 2};
         boolean ans = checkSorted(nums);
         System.out.println(ans);
-
     }
 }
